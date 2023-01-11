@@ -26,11 +26,7 @@ const typeDefs = gql`
         reactionBody: String
         createdAt: String
         username: String
-    }
-
-    type Query{
-       thoughts(username: String): [Thought]
-    }    
+    }   
 
     type Query {
         users: [User]
