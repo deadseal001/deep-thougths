@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQuery, useMutation  } from '@apollo/client';
-import { QUERY_USER,QUERY_ME } from '../utils/queries';
+import { QUERY_USER,QUERY_ME} from '../utils/queries';
 import ThoughtList from '../components/ThoughtList';
 import FriendList from '../components/FriendList';
 import Auth from '../utils/auth';
@@ -36,6 +36,9 @@ const Profile = () => {
       </h4>
     );
   }
+
+  
+
 
   const handleClick = async () => {
     try {
