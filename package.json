@@ -1,0 +1,25 @@
+{
+  "name": "deep-thougths",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadseal001/deep-thougths.git"
+  },
+  "author": "Wenbo Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deadseal001/deep-thougths/issues"
+  },
+  "homepage": "https://github.com/deadseal001/deep-thougths#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
